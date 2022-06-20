@@ -17,7 +17,6 @@ def enablePrint():
 
 
 def Benfords_Law(start: int, end: int, silent: bool = False) -> bool:
-    # numbers_to_check = end - start
     r = [0] * 10
     fact = factorial(start)
     for i in range(start, end):
